@@ -8,14 +8,16 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://cs-yum.github.io/cs-yum-blog/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config
-  organizationName: "cs-yum/JitHoon",
-  projectName: "cs-yum-blog",
+  organizationName: "cs-yum",
+  projectName: "cs-yum.github.io/cs-yum-blog/",
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
