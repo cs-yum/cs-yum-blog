@@ -7,18 +7,6 @@ const config = {
   tagline: "FE와 관련된 Computer Science를 공부하고 정리합니다.",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
-  url: "https://cs-yum.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/cs-yum-blog/",
-
-  // GitHub pages deployment config
-  organizationName: "cs-yum",
-  projectName: "cs-yum.github.io/cs-yum-blog/",
-  deploymentBranch: "gh-pages",
-  trailingSlash: false,
-
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
