@@ -7,6 +7,9 @@ const config = {
   tagline: "FE와 관련된 Computer Science를 공부하고 정리합니다.",
   favicon: "img/favicon.ico",
 
+  url: "https://cs-yum.github.io",
+  baseUrl: "/cs-yum-blog/",
+
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
