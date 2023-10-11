@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "CS 잘 먹기",
-  tagline: "FE와 관련된 Computer Science를 공부하고 정리합니다.",
+  tagline: "Front-End와 관련된 기술들을 공부하고 정리합니다.",
   favicon: "img/favicon.ico",
 
   url: "https://cs-yum.github.io",
