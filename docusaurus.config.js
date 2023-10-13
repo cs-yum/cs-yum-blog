@@ -25,11 +25,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/cs-yum/cs-yum-blog",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/cs-yum/cs-yum-blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
