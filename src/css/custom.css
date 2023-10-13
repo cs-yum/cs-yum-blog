@@ -25,6 +25,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+hr {
+  background-color: rgba(128, 128, 128, 0.501);
+}
+
 #welcome-desc {
   font-size: 20px;
   font-weight: 700;
