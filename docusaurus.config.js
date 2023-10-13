@@ -122,6 +122,15 @@ const config = {
               },
             ],
           },
+          {
+            title: "김민섭",
+            items: [
+              {
+                label: "GitHub",
+                href: "https://github.com/LikeFireAndSky",
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} CS 잘 먹기`,
       },
