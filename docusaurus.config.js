@@ -31,7 +31,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

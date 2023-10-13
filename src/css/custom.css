@@ -24,3 +24,51 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+#welcome-desc {
+  font-size: 20px;
+  font-weight: 700;
+  color: #26c2a0;
+}
+
+.contributor {
+  display: flex;
+
+  margin: 50px 0;
+}
+
+.contributor-imgbox {
+  position: relative;
+
+  width: 300px;
+  height: 200px;
+
+  margin: 0 20px 0 0;
+}
+
+#contributor-img {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+
+  border-radius: 10px;
+
+  inset: 0px;
+  object-fit: cover;
+  color: transparent;
+}
+
+.contributor-name {
+  margin: 0;
+}
+.contributor-fe {
+  color: gray;
+}
+.contributor-desc {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.contributor-github {
+  margin: 0;
+}
