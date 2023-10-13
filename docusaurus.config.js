@@ -50,17 +50,19 @@ const config = {
         },
         items: [
           {
+            label: "Intro",
+            sidebarId: "docs",
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "CS",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/cs-yum/cs-yum-blog",
-            label: "GitHub",
             position: "right",
           },
+          {
+            label: "운영체제",
+            sidebarId: "운영체제",
+            type: "docSidebar",
+            position: "right",
+          },
+
+          { to: "/blog", label: "blog", position: "right" },
         ],
       },
       footer: {
