@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcs_yum_blog=self.webpackChunkcs_yum_blog||[]).push([[6751],{1727:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/cs-yum-blog/blog/tags/docusaurus","allTagsPath":"/cs-yum-blog/blog/tags","count":4}')}}]);

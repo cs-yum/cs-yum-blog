@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcs_yum_blog=self.webpackChunkcs_yum_blog||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"CS \uc798 \uba39\uae30","permalink":"/cs-yum-blog/blog/welcome"}]}')}}]);

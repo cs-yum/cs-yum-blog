@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcs_yum_blog=self.webpackChunkcs_yum_blog||[]).push([[5154],{8726:l=>{l.exports=JSON.parse('{"label":"hola","permalink":"/cs-yum-blog/blog/tags/hola","allTagsPath":"/cs-yum-blog/blog/tags","count":1}')}}]);
