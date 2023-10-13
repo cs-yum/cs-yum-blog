@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcs_yum_blog=self.webpackChunkcs_yum_blog||[]).push([[4195],{2841:(e,u,l)=>{l.r(u),l.d(u,{default:()=>s});var t=l(7294),c=l(6550);function s(){return t.createElement(c.l_,{to:"blog"})}}}]);
