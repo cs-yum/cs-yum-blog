@@ -1,6 +1,5 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  docs: ["Welcome"],
   운영체제: [
     "운영체제 Intro",
     {

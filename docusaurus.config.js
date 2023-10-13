@@ -13,6 +13,10 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
+  organizationName: "cs-yum",
+  projectName: "cs-yum-blog",
+  deploymentBranch: "gh-pages",
+
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -39,7 +43,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "img/docusaurus-social-card.jpg",
       navbar: {
         title: "CS 잘 먹기",
         logo: {
@@ -49,8 +52,7 @@ const config = {
         items: [
           {
             label: "Intro",
-            sidebarId: "docs",
-            type: "docSidebar",
+            to: "/blog",
             position: "right",
           },
           {
@@ -77,7 +79,6 @@ const config = {
             type: "docSidebar",
             position: "right",
           },
-          { to: "/blog", label: "blog", position: "right" },
         ],
       },
       footer: {
