@@ -59,7 +59,12 @@ const config = {
             type: "docSidebar",
             position: "right",
           },
-
+          {
+            label: "네트워크",
+            sidebarId: "네트워크",
+            type: "docSidebar",
+            position: "right",
+          },
           { to: "/blog", label: "blog", position: "right" },
         ],
       },
