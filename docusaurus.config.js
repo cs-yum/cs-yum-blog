@@ -8,7 +8,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   url: "https://cs-yum.github.io",
-  baseUrl: "/cs-yum-blog/",
+  baseUrl: "/",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
