@@ -79,6 +79,12 @@ const config = {
             type: "docSidebar",
             position: "right",
           },
+          {
+            label: "Javascript",
+            sidebarId: "Javascript",
+            type: "docSidebar",
+            position: "right",
+          },
         ],
       },
       footer: {
