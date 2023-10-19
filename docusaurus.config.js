@@ -51,8 +51,9 @@ const config = {
         },
         items: [
           {
-            label: "Intro",
-            to: "/blog",
+            label: "Welcome",
+            sidebarId: "Welcome",
+            type: "docSidebar",
             position: "right",
           },
           {
