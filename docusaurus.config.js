@@ -138,6 +138,15 @@ const config = {
               },
             ],
           },
+          {
+            title: "어승준",
+            items: [
+              {
+                label: "GitHub",
+                href: "https://github.com/seungjun222",
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} CS 잘 먹기`,
       },
