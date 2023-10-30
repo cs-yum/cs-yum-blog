@@ -7,19 +7,15 @@ const config = {
   tagline: "Front-End와 관련된 기술들을 공부하고 정리합니다.",
   favicon: "img/favicon.ico",
 
-  url: "https://cs-yum.github.io",
+  url: "https://cs-yum-blog.vercel.app",
   baseUrl: "/",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  organizationName: "cs-yum",
-  projectName: "cs-yum-blog",
-  deploymentBranch: "gh-pages",
-
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "ko",
+    locales: ["ko"],
   },
 
   presets: [
@@ -114,10 +110,6 @@ const config = {
                 label: "GitHub",
                 href: "https://github.com/moonyah",
               },
-              /* {
-                label: "Blog",
-                to: "/blog",
-              },*/
             ],
           },
           {
@@ -154,6 +146,18 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "프론트엔드 블로그, 프론트엔드 테크 블로그, FE 테크 블로그, CS 잘 먹기",
+        },
+        {
+          name: "description",
+          content:
+            "CS 잘 먹기는 Computer Science 잘 먹기의 줄임말로, Front-End 관련 기술을 함께 공부하고 정리하는 Tech Blog입니다.",
+        },
+      ],
     }),
 };
 
