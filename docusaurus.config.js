@@ -53,6 +53,12 @@ const config = {
             position: "right",
           },
           {
+            label: "Javascript",
+            sidebarId: "Javascript",
+            type: "docSidebar",
+            position: "right",
+          },
+          {
             label: "React",
             sidebarId: "React",
             type: "docSidebar",
@@ -61,12 +67,6 @@ const config = {
           {
             label: "Typescript",
             sidebarId: "Typescript",
-            type: "docSidebar",
-            position: "right",
-          },
-          {
-            label: "Javascript",
-            sidebarId: "Javascript",
             type: "docSidebar",
             position: "right",
           },
