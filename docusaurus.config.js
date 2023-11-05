@@ -47,12 +47,6 @@ const config = {
         },
         items: [
           {
-            label: "Welcome",
-            sidebarId: "Welcome",
-            type: "docSidebar",
-            position: "right",
-          },
-          {
             label: "Javascript",
             sidebarId: "Javascript",
             type: "docSidebar",
