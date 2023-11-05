@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Layout description="FE Tech Blog">
       <Head>
-        <meta property="og:image" content="yummy.png" />
+        <meta property="og:image" content="/img/yummy.png" />
       </Head>
       <main id={styles.welcome}>
         <h1>CS 잘 먹기 Blog를 소개합니다.</h1>
