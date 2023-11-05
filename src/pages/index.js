@@ -27,8 +27,10 @@ export default function Home() {
         <h2 className={styles.title2}>🧑🏻‍💻 More Info.</h2>
         <p>
           프로젝트의 자세한 소스코드를 확인하고 싶다면,
-          <a src="https://github.com/cs-yum/cs-yum-blog">GitHub</a>로 방문해
-          주세요!
+          <a href="https://github.com/cs-yum/cs-yum-blog" target="_blank">
+            GitHub
+          </a>
+          로 방문해 주세요!
         </p>
       </main>
     </Layout>
