@@ -106,11 +106,8 @@ export default function Contributors() {
           <h3 className={styles.contributor_name}>한은지</h3>
           <div className={styles.contributor_fe}>프론트엔드 개발자</div>
           <p className={styles.contributor_desc}>
-            맛집 문의 010-1234-5678
-            <br />
-            저는 정말 행복합니다. 저는 정말 행복합니다. 왜냐하면 왜냐하면
-            <br />
-            왜냐하면, 왜냐하면,왜냐하면 왜냐하면 왜냐하면 왜냐하면 왜냐하면{" "}
+            새로운 아이디어를 현실로 만들고, 다양한 분야에서 지식을 공유하며
+            <br />더 나은 세상을 만들어가고 싶습니다.
           </p>
           <a
             className={styles.contributor_github}
