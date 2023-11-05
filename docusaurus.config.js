@@ -65,12 +65,6 @@ const config = {
             position: "right",
           },
           {
-            label: "Typescript",
-            sidebarId: "Typescript",
-            type: "docSidebar",
-            position: "right",
-          },
-          {
             label: "네트워크",
             sidebarId: "네트워크",
             type: "docSidebar",
