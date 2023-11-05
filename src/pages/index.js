@@ -1,6 +1,7 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
+import Head from "@docusaurus/Head";
 import Contributors from "@site/src/components/Contributors";
 import Stack from "@site/src/components/Stack";
 
@@ -9,12 +10,11 @@ import styles from "./styles.module.css";
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={siteConfig.title}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout description="FE Tech Blog">
+      <Head>
+        <meta property="og:image" content="yummy.png" />
+      </Head>
       <main id={styles.welcome}>
-        <img alt="로고" width="50" src="/img/logo.svg" />
         <h1>CS 잘 먹기 Blog를 소개합니다.</h1>
         <p>
           'CS 잘 먹기' 는 Computer Science 잘 먹기의 줄임말로,
