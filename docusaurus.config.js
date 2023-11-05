@@ -140,11 +140,6 @@ const config = {
           content:
             "프론트엔드 블로그, 프론트엔드 테크 블로그, FE 테크 블로그, CS 잘 먹기",
         },
-        {
-          name: "description",
-          content:
-            "CS 잘 먹기는 Computer Science 잘 먹기의 줄임말로, Front-End 관련 기술을 함께 공부하고 정리하는 Tech Blog입니다.",
-        },
       ],
     }),
 };
