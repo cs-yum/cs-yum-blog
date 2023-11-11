@@ -130,6 +130,11 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} CS 잘 먹기`,
       },
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
