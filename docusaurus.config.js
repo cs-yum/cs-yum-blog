@@ -27,7 +27,11 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
-          showReadingTime: false,
+          showReadingTime: true,
+          blogTitle: "CS 잘 먹기",
+          blogDescription: "CS 잘 먹기의 개발 기록",
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "모든 개발 기록",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -46,6 +50,7 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
+          { to: "blog", label: "Blog", position: "right" },
           {
             label: "Javascript",
             sidebarId: "Javascript",
