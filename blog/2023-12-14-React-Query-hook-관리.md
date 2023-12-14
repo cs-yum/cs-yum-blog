@@ -11,8 +11,8 @@ image: /img/logo.svg
 - [React-Query를 활용한 서버 상태 관리](https://cs-yum-blog.vercel.app/blog/%EC%84%9C%EB%B2%84-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC) 글을 작성하면서 공부한 내용을 실제 야놀자 클론 코딩 프로젝트에 적용해 보았습니다.
 - 컴포넌트와 React-Query hook, axios 로직을 분리하여 관리했던 경험과 장단점을 함께 다룹니다.
 
-## 고민한 내용
-### React-Query hook 분리
+## 실제 적용 내용
+### 행동
 - React-Query hook 사용법을 이해하는 것을 넘어서 어떻게 하면 효율적으로 관리할 수 있을지 고민해 보았습니다.
 - React-Query에서 제공해주는 hook인 useQuery와 useMutation을 리액트 컴포넌트 안에서 바로 사용할 수 있지만, hook에 사용되는 코드가 비지니스 로직이라면 컴포넌트와 분리할 필요가 있다고 판단하였습니다.
 - 이에 React-Query hook에 작성되는 코드가 View 로직에 가까운지 비지니스 로직에 가까운지 생각해 보았습니다.
@@ -94,7 +94,7 @@ export const fetchCarts = async (): Promise<CartData> => {
 };
 ```
 
-#### 효과
+### 효과
 - 컴포넌트에서는 view 로직을, hook과 비동기 처리에서는 비지니스 로직을 따로 집중해서 관리할 수 있게 되었습니다.
 - 컴포넌트의 경우 공통 컴포넌트로 사용헤야하는 상황이 오면 쉽게 대응할 수 있게 되었습니다.
 - 또한 에러 처리를 할 때, 404 페이지로 이동하거나 toast를 보여준다거나 하는 View와 관련된 에러는 컴포넌트에서 관리하고, 이 외의 에러처리에 대해서는 useQuery의 onError를 활용하여 에러 관리를 할 수 있게 되었습니다.
