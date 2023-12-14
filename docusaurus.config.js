@@ -31,7 +31,7 @@ const config = {
           blogTitle: "CS 잘 먹기",
           blogDescription: "CS 잘 먹기의 개발 기록",
           blogSidebarCount: "ALL",
-          blogSidebarTitle: "모든 개발 기록",
+          blogSidebarTitle: "개발 기록",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
